@@ -1,0 +1,1150 @@
+body
+{
+	padding: 0;
+	margin: 0;
+}
+
+#bloc_page
+{	
+  width: 100%;
+}
+
+header, .section-filtre, .hebergements, #ActMarseille, footer, .tout
+{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+p, h3, h4, h2, nav a
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+button
+{
+	border: none;
+	box-shadow: none;
+	background: none;
+}
+
+/*En tête*/
+
+header
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1rem;
+}
+
+header img
+{
+	width: 8rem;
+}
+
+nav p
+{
+	margin: 0;
+	position: relative;
+	padding: 0;
+	margin-left: 30px;
+	padding-top: 15px;
+}
+
+nav
+{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+}
+
+nav ul a
+{
+	font-size: 1.1em;
+}
+
+nav p a
+{
+	font-size: 1.1em;
+}
+
+nav li
+{
+	float: left;
+	padding-left: 30px;
+}
+
+.blue1:hover
+{
+	border-top: 2px solid #0065FC;
+	padding-top: 1.9rem;
+	color: #0065FC;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: black;
+}
+
+nav p a
+{
+	position: relative;
+}
+
+#logo img
+{
+	width: 8rem;
+	height: 4rem;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+#blue2
+{
+	color:#0065FC;
+    font-weight: bold;
+}
+
+#intro h3
+{
+	margin-bottom: -10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#intro p
+
+{
+	font-size: 13.2px;
+	margin-bottom: 10px;
+}
+
+/*RESEARCH BAR*/
+
+#researchbar .span2
+{
+	display: none;
+}
+
+input
+{
+  border-top: hidden;
+  border-bottom: hidden;
+  border-right: hidden;
+  border-left: hidden;
+}
+
+#search
+{
+	padding-left: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	border-top: 2px solid #F2F2F2;
+	border-bottom: 2px solid #F2F2F2;
+	padding-top: 11.7px;
+	padding-bottom: 10.5px;
+	margin-right: -5px;
+	margin-left: -5px;
+	opacity: 80%;	
+}
+
+#maps
+{
+	background-color: #F2F2F2;
+	padding: 14px;
+	padding-bottom: 14px;
+	border-radius: 10px 0px 0px 10px;
+	color: black;
+}
+
+#recherche
+{
+	background-color: #0065FC;
+	padding: 15px;
+	padding-bottom: 12px;
+	border-radius: 0px 14px 14px 0px;
+	color: white;
+	font-weight: bolder;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12.9px;
+}
+
+/*FILTRES*/
+
+#filtres
+{
+	margin-top: -5px;
+	display: flex;
+	font-weight: bold;
+}
+
+#filtres a
+{
+	text-decoration: none;
+    color: black;
+}
+
+.filter
+{
+	border: 1px solid #F2F2F2;
+	padding: 8px;
+	text-align: justify;
+	border-radius: 30px;
+	padding-right: 18px;
+}
+
+#eco
+{
+	background-color: #DEEBFF;
+	padding: 12px;
+	padding-bottom: 14.5px;
+	padding-top: 15px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	margin-right: px;
+	font-size: 15px;
+	border-radius: 30px;
+	color: #0065FC;
+
+}
+
+#famille
+{
+	background-color: #DEEBFF;
+	padding: 0px;
+	padding-right: 15.5px;
+	padding-left: 15.5px;
+	padding-bottom: 14.2px;
+	padding-top: 12px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	margin-right: 6px;
+	font-size: 15x;
+	border-radius: 20px;
+	color: #0065FC;
+}
+
+#romantique
+{
+	background-color: #DEEBFF;
+	padding: 15px;
+	padding-top: 14px;
+	padding-right: 15px;
+	padding-bottom: 14.3px;
+	padding-left: 14px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	margin-right: 6px;
+	font-size: 15px;
+	border-radius: 30px;
+	color: #0065FC;
+}
+
+#animaux
+{
+	background-color: #DEEBFF;
+	padding: 15px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	margin-right: 6px;
+	font-size: 15px;
+	border-radius: 30px;
+	color: #0065FC;
+}
+
+.filtre
+{
+	margin-top: 25px;
+}
+
+#filtres p
+{
+	margin-right: 25px;	
+}
+
+#filtres i
+{
+   margin-top: -20px;
+}
+
+.filter:hover
+{
+	border: 1px solid #0065FC;
+}
+
+
+/*INFORMATION*/
+
+#information
+{
+	font-size: 13.5px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+
+#information i
+{
+	padding: 5px;
+	padding-right: 8px;
+    padding-left: 8px;
+	border: 1px solid grey;
+	border-radius: 20px;
+	color: #0065FC;
+	font-size: 10px;
+	margin-right: 5px;
+}
+/*section hebergements*/
+
+.hebergements
+{
+	display: flex;
+	margin-bottom: 55px;
+}
+
+.bloc-hebergements
+{
+	width: 77%;
+	background-color: #F2F2F2;
+	margin-right: 40px;
+	border-radius: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.hebergements > aside
+{
+	width: 37%;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+}
+
+#conteneur1 > .element1
+{
+	width: 28%;
+	padding: 16px;
+}
+
+.element1_contenue 
+{
+	box-shadow: 0px 0px 25px grey;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+.element1_contenue > a > img
+{
+	border-radius: 20px 20px 0px 0px;
+	width: 100%; 
+	height: 115px; 
+	object-fit: cover;
+}
+
+.element1_texte 
+{
+	margin-top: -15px;
+	margin-left: 10px;
+}
+
+.element1_contenue a  h3
+{
+   margin-bottom: -10px;
+   font-weight: bold;
+   font-size: 1.1em;
+}
+
+#conteneur1 a
+{
+	text-decoration: none;
+	color: inherit
+}
+
+h3 + p
+{
+	margin-bottom: -10px;
+}
+
+p + .emote 
+{
+	color: #0065FC;
+	margin-bottom: 3px;
+}
+
+
+#conteneur1
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: -10px;
+}
+
+
+section h2
+{
+	margin-left: 35px;
+	padding-top: 15px;
+	color: black;
+	font-size: 1.4em;
+}
+
+#plus
+{
+	margin-left: 35px;
+	margin-top: 35px;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#plus a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#plus:hover
+{
+	text-decoration: underline;
+}
+
+a .emote span
+{
+	color: #C8C8C8;
+}
+
+
+/*ASIDE*/
+.bloc_aside > h2
+{
+   display: flex;
+   justify-content: space-around;
+   margin-left: -15px;
+   margin-bottom: 30px;
+}
+
+.conteneur2
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.conteneur2 > .element2
+{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 37px;
+}
+
+.element2texte
+{
+	clear: right;
+	margin-top: -7px;
+	margin-left: 145px;
+}
+
+.element2-contenue > a > img
+{
+	float: left;
+	border-radius: 20px 0px 0px 20px;
+	width: 124px; 
+    height: 140px; 
+    object-fit: cover;
+}
+
+.element2-contenue
+{
+	box-shadow: 0px 0px 25px grey;
+	border-radius: 25px;
+	padding: 5px;
+	height: 140px;
+}
+
+.element2-contenue a h3
+{
+   margin-bottom: -10px;
+   font-weight: bold;
+   font-size: 1.1em;
+}
+
+p + .emote2
+{
+	margin-top: 45px;
+	color: #0065FC;
+}
+
+.element2-contenue a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.emote2 > span
+{
+	color: #C8C8C8;
+}
+
+
+/*SECTION ACTIVITES MARSEILLE*/
+
+#ActMarseille > h2
+{
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+#ActMarseille
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.tout
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenue3, .contenue4, .contenue5, .contenue6
+{
+	width: 23%;
+}
+
+.element3-contenue > a > .grandeimg
+{
+	border-radius: 15px 15px 0px 0px;
+	width: 100%; 
+	height: 380px; 
+	object-fit: cover;
+} 
+
+.element3-contenue > a > .petiteimg1
+{
+	border-radius: 15px 15px 0px 0px;
+	width: 100%; 
+    height: 160px; 
+    object-fit: cover;
+} 
+
+.element3-contenue > a > .petiteimg2
+{
+	border-radius: 15px 15px 0px 0px;
+	width: 100%; 
+    height: 110px; 
+    object-fit: cover;
+} 
+
+.element5-contenue > a > .petiteimg
+{
+	border-radius: 15px 15px 0px 0px;
+	width: 100%; 
+    height: 140px; 
+    object-fit: cover;
+}
+
+.element4-contenue > a > .grandeimg
+{
+	border-radius: 15px 15px 0px 0px;
+	width: 100%; 
+	height: 380px; 
+	object-fit: cover;	
+} 
+
+.element-4 > .element4-contenue
+{
+	box-shadow: 0px 0px 15px #C8C8C8;
+	border-radius: 15px;
+}
+
+.element4 > .element5-contenue
+{
+	box-shadow: 0px 0px 15px #C8C8C8;
+	border-radius: 15px;
+}
+
+.element3-contenue
+{
+	box-shadow: 0px 0px 15px #C8C8C8;
+	border-radius: 15px;
+}
+
+.element3-texte
+{
+   overflow: hidden;
+   font-weight: bold;
+   font-size: 1em;
+   padding-left: 20px;
+   margin-top: -5px;
+   margin-bottom: 60px;
+}
+
+.element3-contenue a, .element4-contenue a, .element5-contenue a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+/*FOOTER*/
+
+footer
+{
+	display: flex;
+	justify-content:space-between;
+	background-color: #F2F2F2;
+	height: 180px;
+}
+
+h4
+{
+	font-weight: bold;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: black;
+}
+
+/*ecran*/
+
+@media screen and (max-width: 1380px)
+{   
+	#bloc_page
+    {
+	   width: 100%;
+	}
+
+	#intro
+	{
+		font-size: 1.4em;
+	}
+
+	#intro p
+	{
+		font-size: 0.8em;
+	}
+
+	#information
+	{
+		font-size: 0.9em;
+	}
+
+	header img
+	{
+		width: 12rem;
+	}
+
+  /*HEADER*/
+	
+	.blue1:hover
+	{
+		color:#0065FC;
+		border-top: inherit;
+		border-bottom: 2px solid #0065FC;
+		padding-top: 42px;
+		font-weight: bold;
+	}
+
+	.heb
+	{
+		margin-bottom: 15px;
+	}
+
+	/*FILTRES*/
+	
+	.filtre
+	{
+		margin-bottom: 0px;
+	}
+
+	#filtres
+	{
+		margin-left: 0px;
+	}
+
+	#filtres p
+	{
+		margin-right: 20px;
+	}
+
+	.filter
+	{
+		margin-bottom: -10px;
+	}
+
+	#filtres
+	{
+		margin-top: -5px;
+		font-size: 1.1em;
+		flex-wrap: wrap;
+		margin-bottom: 35px;
+	}
+
+   /*HEBERGEMENT*/
+
+	.hebergements
+	{
+		display: flex;
+		margin-bottom: 55px;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+
+	.element1_contenue > a > img
+	{
+		width: 100%; 
+		height: 140px; 
+		object-fit: cover;
+	}	
+
+	.bloc-hebergements
+	{
+		width: auto;
+		margin-bottom: 30px;
+		margin-right: 0px;
+	}
+
+	.hebergements > aside
+	{
+		width: 100%;
+	}
+	/*ACTIVITE MARSEILLE*/
+
+	.tout
+	{
+		width: auto;
+		display: flex;
+		flex-wrap: wrap;
+	    justify-content: space-between;
+	}
+
+	.tout > .contenue4
+	{
+	   margin-right: 0px;
+	}
+
+    /*FOOTER*/
+
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+		width: auto;
+		height: auto;
+		text-align: center;
+	}
+
+	#propos
+	{
+		margin-left: 0px;
+	}
+
+	#assistance
+	{
+		margin-right: 0px;
+	}
+}
+
+@media all and (max-device-width: 480px)
+{
+	 #bloc_page
+	 {
+		width: 480px;
+	 }
+
+	 header, .section-filtre, .hebergements, footer, .tout
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	header img
+	{
+		margin-left: 30px;
+		width: 6rem;
+	}
+
+	nav p a
+	{
+		position: absolute;
+		margin-top: 8px;
+		margin-left: -107px;
+	}
+
+	nav li
+	{
+		padding-bottom: 5px;
+		border-bottom: 2px solid #C8C8C8;
+		margin-bottom: 0px;
+	}
+
+	nav li:hover
+	{
+		padding-bottom: 5px;
+		border-bottom: 2px solid #0065FC ;
+		margin-bottom: 15px;
+	}
+
+
+	.heb
+	{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.act
+	{
+		padding-right: 45px;
+		padding-left: 46px;
+	}
+
+	.blue1:hover
+	{
+		border-bottom: none;
+	}
+
+	header
+	{
+		justify-content: space-between;
+	}
+
+	header nav p 
+	{
+		position: relative;
+		top: -55px;
+		margin-left: 75px;
+	}
+
+	nav
+	{
+		display: flex;
+		flex-basis: 100%;
+	}
+ 
+	nav a
+	{
+		text-decoration: none;
+		color: black;
+		font-size: 15px;
+	}
+
+	#intro
+	{
+		margin-top: -5px;
+		font-size: 1.3em;
+		margin-left: 30px;
+	}
+
+	#intro p
+	{
+		font-size: 0.9em;
+		margin-bottom: 2rem;
+	}
+
+	nav ul a
+	{
+		font-size: 1.2em;
+	}
+
+	nav p a
+	{
+		font-size: 1.2em;
+	}
+
+	/*Filtres*/
+
+	.filtre
+	{
+		margin-bottom: 0px;
+	}
+
+	#filtres
+	{
+		margin-left: 30px;
+	}
+
+	#filtres p
+	{
+		margin-right: 115px;
+	}
+
+	.filter
+	{
+		margin-bottom: -8px;
+	}
+
+	#filtres
+	{
+		margin-top: -5px;
+		display: flex;
+		font-size: 1.2em;
+		justify-content: space-between;
+		font-weight: bold;
+	}
+
+	#information
+	{
+		margin-top: 28px;
+		font-size: 1.2em;
+		padding-left: 20px;
+	}
+
+	/*researchbar*/
+
+	#researchbar p
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	#researchbar .span1
+	{
+		display: none;
+	}
+
+	#researchbar .span2
+	{
+		display: flex;
+	}
+
+	#researchbar a
+	{
+		text-decoration: none;
+	}
+	 
+	.span2
+	{
+		background-color: #0065FC;
+		padding: 22px;
+		margin-left: -16px;
+		font-size: 1.4em;
+		border-radius: 14px 14px 14px 14px;
+		color: white;
+	}
+
+	#search
+	{
+		padding-left: 20px;
+		font-size: 1.5em;
+		margin-left: 0px;
+		opacity: 100%;	
+	}
+
+	#maps
+	{
+		background-color: #F2F2F2;
+		padding: 21px;
+		font-size: 1.4em;
+		border-radius: 10px 0px 0px 10px;
+		color: black;
+	}
+
+	/*HEBERGEMENT*/
+	
+	#conteneur1
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#conteneur1 > .element1
+	{
+		width: 100%;
+		padding: 8px;
+	}
+
+	.bloc-hebergements
+	{
+		background-color: white;
+		border-radius: 20px;
+		padding-right: 25px;
+		padding-left: 10px;
+		margin-right: 0px;
+	}
+
+	.hebergements
+	{
+		display: flex;
+		margin-bottom: -35px;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+		align-content: center;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.element1_contenue 
+	{
+		box-shadow: 0px 0px 20px #C8C8C8;
+		border-radius: 25px;
+		padding: 5px;
+		width: 96%;
+	}
+
+    section h2
+	{
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+	
+	#plus
+	{
+		margin-left: 10px;
+		margin-top: 25px;
+	}
+
+	/*ASIDE*/
+	.hebergements > aside
+	{
+		background-color: #F2F2F2;
+		border-radius: 0px;
+	}
+
+	.conteneur2 > .element2
+	{
+		width: 90%;
+		margin-bottom: 15px;
+	}
+
+	/*ACTIVITE MARSEILLE*/ 
+
+	#ActMarseille > h2
+	{
+		margin-left: 15px;
+	}
+
+	.tout
+	{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+
+	.contenue3
+	{
+	   width: auto;
+	   padding-left: 30px;
+	   padding-right: 30px;
+	}
+
+	.contenue4
+	{
+		width: auto;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.contenue5 
+	{
+		width: auto;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.contenue6
+	{
+		width: auto;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.tout > .contenue4
+	{
+		margin-right: 0px;
+	}
+
+	.element3-contenue > a > .grandeimg
+	{
+		border-radius: 15px 15px 0px 0px;
+		width: 100%; 
+		height: 120px; 
+		object-fit: cover;
+	} 
+
+
+	.element4-contenue > a > .grandeimg
+	{
+		border-radius: 15px 15px 0px 0px;
+		width: 100%; 
+		height: 120px; 
+		object-fit: cover;
+	} 
+
+	.element5-contenue > a > .petiteimg
+	{
+		border-radius: 15px 15px 0px 0px;
+		width: 100%; 
+		height: 120px; 
+		object-fit: cover;
+	} 
+	
+	.element3-contenue > a > .petiteimg1
+	{
+		border-radius: 15px 15px 0px 0px;
+		width: 100%; 
+		height: 120px; 
+		object-fit: cover;
+	} 
+	
+	.element3-contenue > a > .petiteimg2
+	{
+		border-radius: 15px 15px 0px 0px;
+		width: 100%; 
+		height: 120px; 
+		object-fit: cover;
+	} 
+	.element3-texte
+	{
+		font-weight: bold;
+		font-size: 1.2em;
+		padding-left: 20px;
+		margin-top: 0px;
+		padding-bottom: 5px;
+		margin-bottom: 25px;
+	}
+
+	#ActMarseille
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/*FOOTER*/
+	
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+		text-align: start;
+	}
+
+	#propos
+	{
+		margin-left: 20px;
+	}
+
+	#nos_hebergements
+	{
+		margin-left: 20px;
+	}
+
+	#assistance
+	{
+		margin-right: 0px;
+		margin-left: 20px;
+	}
+}
